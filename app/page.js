@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <>
-      {/* NAVIGATION */}
+      {/* =========================
+          NAVIGATION
+      ========================== */}
       <nav className="navbar">
         <div className="logo">
           Senthurkanthan<span>.</span>
@@ -12,31 +14,36 @@ export default function Home() {
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
 
       <main>
 
-        {/* HERO */}
+        {/* =========================
+            HERO
+        ========================== */}
         <section className="hero">
           <div className="hero-content">
 
-            <p className="intro">DEVOPS ENGINEER</p>
+            <p className="intro">
+              DEVOPS ENGINEER
+            </p>
 
             <h1>
               Senthurkanthan<span>.</span>
             </h1>
 
             <h2>
-              AWS & Linux Infrastructure Engineer
+              DevOps Engineer · AWS & Linux
             </h2>
 
             <p className="description">
               DevOps Engineer with nearly 2 years of hands-on experience
-              working with AWS and Linux production environments,
-              application deployment, server administration and
-              infrastructure management.
+              in AWS and Linux production environments, application
+              deployment, server administration, infrastructure
+              configuration and production support.
             </p>
 
             <div className="buttons">
@@ -57,79 +64,129 @@ export default function Home() {
                 GitHub
               </a>
 
+              <a
+                href="https://www.linkedin.com/in/senthurkanthan-s-s-653a66195/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="secondary-btn"
+              >
+                LinkedIn
+              </a>
+
             </div>
           </div>
 
 
-          {/* TERMINAL */}
-         <div className="hero-terminal">
-  <div className="terminal-header">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+          {/* =========================
+              TERMINAL
+          ========================== */}
+          <div className="hero-terminal">
 
-  <div className="terminal-body">
+            <div className="terminal-header">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
 
-    <p>
-      <span className="green">senthurkanthan@devops</span>:~$
-      <span className="terminal-command"> whoami</span>
-    </p>
+            <div className="terminal-body">
 
-    <p className="output">
-      Senthurkanthan S S
-    </p>
+              <p>
+                <span className="green">
+                  senthurkanthan@devops
+                </span>
+                :~$
+                <span className="terminal-command">
+                  {" "}whoami
+                </span>
+              </p>
 
-    <p>
-      <span className="green">senthurkanthan@devops</span>:~$
-      <span className="terminal-command"> aws ec2 describe-instances</span>
-    </p>
-
-    <p className="success">
-      ✓ EC2 production instances running
-    </p>
-
-    <p>
-      <span className="green">senthurkanthan@devops</span>:~$
-      <span className="terminal-command"> nginx -t</span>
-    </p>
-
-    <p className="success">
-      ✓ nginx configuration successful
-    </p>
-
-    <p>
-      <span className="green">senthurkanthan@devops</span>:~$
-      <span className="terminal-command"> pm2 status</span>
-    </p>
-
-    <p className="success">
-      ✓ Node.js applications online
-    </p>
-
-    <p>
-      <span className="green">senthurkanthan@devops</span>:~$
-      <span className="terminal-command"> git status</span>
-    </p>
-
-    <p className="output">
-      On branch main
-    </p>
-
-    <p className="success">
-      ✓ Production deployment ready
-    </p>
-
-    <p>
-      <span className="green">senthurkanthan@devops</span>:~$
-      <span className="cursor">_</span>
-    </p>
-
-  </div>
-</div>
+              <p className="output">
+                Senthurkanthan S S
+              </p>
 
 
-        {/* ABOUT */}
+              <p>
+                <span className="green">
+                  senthurkanthan@devops
+                </span>
+                :~$
+                <span className="terminal-command">
+                  {" "}role
+                </span>
+              </p>
+
+              <p className="output">
+                DevOps Engineer
+              </p>
+
+
+              <p>
+                <span className="green">
+                  senthurkanthan@devops
+                </span>
+                :~$
+                <span className="terminal-command">
+                  {" "}cloud
+                </span>
+              </p>
+
+              <p className="output">
+                AWS · EC2 · VPC · IAM · S3
+              </p>
+
+
+              <p>
+                <span className="green">
+                  senthurkanthan@devops
+                </span>
+                :~$
+                <span className="terminal-command">
+                  {" "}stack
+                </span>
+              </p>
+
+              <p className="output">
+                Linux · Nginx · PM2 · Node.js
+              </p>
+
+              <p className="output">
+                MySQL · PostgreSQL · MongoDB
+              </p>
+
+
+              <p>
+                <span className="green">
+                  senthurkanthan@devops
+                </span>
+                :~$
+                <span className="terminal-command">
+                  {" "}deployment
+                </span>
+              </p>
+
+              <p className="success">
+                ✓ Production deployment ready
+              </p>
+
+
+              <p>
+                <span className="green">
+                  senthurkanthan@devops
+                </span>
+                :~$
+                <span className="cursor">
+                  _
+                </span>
+              </p>
+
+            </div>
+          </div>
+        </section>
+
+
+        {/* =========================
+            ABOUT
+        ========================== */}
         <section
           id="about"
           className="content-section"
@@ -152,17 +209,24 @@ export default function Home() {
           </p>
 
           <p>
-            I work with AWS EC2, Linux, Nginx, PM2, SSL/HTTPS,
-            DNS, databases, Git/GitHub and application migration.
-            I have deployed and managed Node.js, PHP, WordPress,
-            Drupal and Strapi applications across AWS and VPS
-            environments.
+            I have deployed and managed 5+ web applications including
+            Node.js, PHP, WordPress, Drupal and Strapi across AWS EC2
+            and VPS environments.
+          </p>
+
+          <p>
+            My experience includes Nginx reverse proxy configuration,
+            PM2 process management, SSL/HTTPS, DNS configuration,
+            database administration, application migration,
+            backup and recovery, and Git/GitHub version control.
           </p>
 
         </section>
 
 
-        {/* SKILLS */}
+        {/* =========================
+            SKILLS
+        ========================== */}
         <section
           id="skills"
           className="content-section"
@@ -178,7 +242,8 @@ export default function Home() {
 
           <p>
             Technologies and infrastructure tools I use for
-            application deployment and production environments.
+            application deployment, server management and
+            production environments.
           </p>
 
 
@@ -201,7 +266,7 @@ export default function Home() {
             </div>
 
 
-            {/* LINUX */}
+            {/* DEVOPS */}
             <div className="skill-group">
 
               <h3>
@@ -291,7 +356,9 @@ export default function Home() {
         </section>
 
 
-        {/* EXPERIENCE */}
+        {/* =========================
+            EXPERIENCE
+        ========================== */}
         <section
           id="experience"
           className="content-section"
@@ -351,7 +418,7 @@ export default function Home() {
 
               <li>
                 Installed and configured MySQL, PostgreSQL and
-                MongoDB including backup and recovery activities.
+                MongoDB, including backup and recovery activities.
               </li>
 
               <li>
@@ -406,7 +473,9 @@ export default function Home() {
         </section>
 
 
-        {/* PROJECTS */}
+        {/* =========================
+            PROJECTS
+        ========================== */}
         <section
           id="projects"
           className="content-section"
@@ -566,8 +635,11 @@ export default function Home() {
         </section>
 
 
-        {/* CERTIFICATIONS */}
+        {/* =========================
+            CERTIFICATIONS
+        ========================== */}
         <section
+          id="certifications"
           className="content-section"
         >
 
@@ -584,13 +656,17 @@ export default function Home() {
             <div className="skill-card">
               AWS Certified Solutions Architect
               <br />
-              <small>MakInfraTek</small>
+              <small>
+                MakInfraTek
+              </small>
             </div>
 
             <div className="skill-card">
               AWS DevOps Certification
               <br />
-              <small>MakInfraTek</small>
+              <small>
+                MakInfraTek
+              </small>
             </div>
 
           </div>
@@ -598,8 +674,11 @@ export default function Home() {
         </section>
 
 
-        {/* EDUCATION */}
+        {/* =========================
+            EDUCATION
+        ========================== */}
         <section
+          id="education"
           className="content-section"
         >
 
@@ -630,7 +709,9 @@ export default function Home() {
         </section>
 
 
-        {/* CONTACT */}
+        {/* =========================
+            CONTACT
+        ========================== */}
         <section
           id="contact"
           className="content-section contact-section"
@@ -648,7 +729,6 @@ export default function Home() {
             Interested in discussing DevOps, Linux infrastructure,
             application deployment or a potential opportunity?
           </p>
-
 
           <div className="buttons">
 
