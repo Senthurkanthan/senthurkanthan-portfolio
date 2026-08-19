@@ -16,6 +16,7 @@ export default function Home() {
       </nav>
 
       <main>
+        {/* HERO */}
         <section className="hero">
           <div className="hero-content">
             <p className="intro">HELLO, I'M</p>
@@ -47,6 +48,7 @@ export default function Home() {
             </div>
           </div>
 
+          {/* TERMINAL */}
           <div className="hero-terminal">
             <div className="terminal-header">
               <span></span>
@@ -56,160 +58,263 @@ export default function Home() {
 
             <div className="terminal-body">
               <p>
-                <span className="green">$</span> whoami
+                <span className="green">senthurkanthan@devops</span>:~$
               </p>
 
-              <p className="output">senthurkanthan</p>
-
-              <p>
-                <span className="green">$</span> role
-              </p>
-
-              <p className="output">DevOps Engineer</p>
-
-              <p>
-                <span className="green">$</span> skills
+              <p className="terminal-command">
+                whoami
               </p>
 
               <p className="output">
-                Linux · AWS · Node.js · PHP · MySQL · Git
+                DevOps Engineer
               </p>
 
               <p>
-                <span className="green">$</span>{" "}
+                <span className="green">senthurkanthan@devops</span>:~$
+              </p>
+
+              <p className="terminal-command">
+                systemctl status nginx
+              </p>
+
+              <p className="success">
+                ● nginx.service - active (running)
+              </p>
+
+              <p>
+                <span className="green">senthurkanthan@devops</span>:~$
+              </p>
+
+              <p className="terminal-command">
+                git status
+              </p>
+
+              <p className="success">
+                ✓ production environment ready
+              </p>
+
+              <p>
+                <span className="green">senthurkanthan@devops</span>:~$
                 <span className="cursor">_</span>
               </p>
             </div>
           </div>
         </section>
 
+        {/* ABOUT */}
         <section id="about" className="content-section">
-  <p className="section-label">01 / ABOUT</p>
+          <p className="section-label">01 / ABOUT</p>
 
-  <h2>DevOps meets real-world infrastructure.</h2>
+          <h2>DevOps meets real-world infrastructure.</h2>
 
-  <p>
-    I am a DevOps Engineer and Linux Engineer with hands-on experience
-    managing Linux servers, deploying web applications, configuring
-    production environments, and maintaining application infrastructure.
-  </p>
+          <p>
+            I am a DevOps Engineer and Linux Engineer with hands-on
+            experience managing Linux servers, deploying web applications,
+            configuring production environments, and maintaining application
+            infrastructure.
+          </p>
 
-  <p>
-    My experience includes Node.js, PHP, MySQL, PostgreSQL, MongoDB,
-    Nginx, PM2, SSL/HTTPS, Git, GitHub, WordPress, Drupal, Strapi,
-    and AWS infrastructure.
-  </p>
-</section>
+          <p>
+            My experience includes Node.js, PHP, MySQL, PostgreSQL, MongoDB,
+            Nginx, PM2, SSL/HTTPS, Git, GitHub, WordPress, Drupal, Strapi,
+            and AWS infrastructure.
+          </p>
+        </section>
 
-       <section id="skills" className="content-section">
+        {/* SKILLS */}
+        <section id="skills" className="content-section">
+          <p className="section-label">02 / SKILLS</p>
 
+          <h2>My Technical Stack</h2>
+
+          <p>
+            Technologies and tools I work with across application deployment,
+            Linux administration, databases, and infrastructure.
+          </p>
+
+          <div className="skill-groups">
+            <div className="skill-group">
+              <h3>🐧 Linux & Servers</h3>
+
+              <div className="skill-tags">
+                <span>Linux</span>
+                <span>Ubuntu</span>
+                <span>Nginx</span>
+                <span>Apache</span>
+                <span>PM2</span>
+                <span>SSL / HTTPS</span>
+                <span>DNS</span>
+              </div>
+            </div>
+
+            <div className="skill-group">
+              <h3>☁️ Cloud & Infrastructure</h3>
+
+              <div className="skill-tags">
+                <span>AWS EC2</span>
+                <span>AWS VPC</span>
+                <span>Amazon S3</span>
+                <span>NAT Gateway</span>
+                <span>Vercel</span>
+                <span>Hostinger VPS</span>
+              </div>
+            </div>
+
+            <div className="skill-group">
+              <h3>💻 Application Stack</h3>
+
+              <div className="skill-tags">
+                <span>Node.js</span>
+                <span>PHP</span>
+                <span>WordPress</span>
+                <span>Drupal</span>
+                <span>Strapi</span>
+                <span>Next.js</span>
+              </div>
+            </div>
+
+            <div className="skill-group">
+              <h3>🗄️ Databases</h3>
+
+              <div className="skill-tags">
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>Redis</span>
+              </div>
+            </div>
+
+            <div className="skill-group">
+              <h3>🔧 Development & Deployment</h3>
+
+              <div className="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>GitHub Actions</span>
+                <span>Composer</span>
+                <span>Certbot</span>
+                <span>Linux CLI</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* EXPERIENCE */}
         <section id="experience" className="content-section">
-  <p className="section-label">03 / EXPERIENCE</p>
+          <p className="section-label">03 / EXPERIENCE</p>
 
-  <h2>What I work with.</h2>
+          <h2>What I work with.</h2>
 
-  <div className="experience-card">
-    <h3>DevOps Engineer</h3>
+          <div className="experience-card">
+            <h3>DevOps Engineer</h3>
 
-    <p>Linux • Cloud • Application Infrastructure</p>
+            <p>Linux • Cloud • Application Infrastructure</p>
 
-    <ul>
-      <li>
-        Deploying and managing Node.js and PHP applications on Linux servers.
-      </li>
+            <ul>
+              <li>
+                Deploying and managing Node.js and PHP applications on Linux
+                servers.
+              </li>
 
-      <li>
-        Configuring Nginx, SSL certificates, domains, DNS, and HTTPS.
-      </li>
+              <li>
+                Configuring Nginx, SSL certificates, domains, DNS, and HTTPS.
+              </li>
 
-      <li>
-        Managing MySQL, PostgreSQL, and MongoDB databases.
-      </li>
+              <li>
+                Managing MySQL, PostgreSQL, and MongoDB databases.
+              </li>
 
-      <li>
-        Managing Node.js applications using PM2 and monitoring server resources.
-      </li>
+              <li>
+                Managing Node.js applications using PM2 and monitoring server
+                resources.
+              </li>
 
-      <li>
-        Working with AWS infrastructure including EC2 and application
-        environments.
-      </li>
+              <li>
+                Working with AWS infrastructure including EC2 and application
+                environments.
+              </li>
 
-      <li>
-        Performing server troubleshooting, optimization, and deployment
-        activities.
-      </li>
+              <li>
+                Performing server troubleshooting, optimization, and deployment
+                activities.
+              </li>
 
-      <li>
-        Working with Git and GitHub for source-code management and deployments.
-      </li>
-    </ul>
-  </div>
-</section>
+              <li>
+                Working with Git and GitHub for source-code management and
+                deployments.
+              </li>
+            </ul>
+          </div>
+        </section>
 
+        {/* PROJECTS */}
         <section id="projects" className="content-section">
-  <p className="section-label">04 / PROJECTS</p>
+          <p className="section-label">04 / PROJECTS</p>
 
-  <h2>Infrastructure I've worked with.</h2>
+          <h2>Infrastructure I've worked with.</h2>
 
-  <div className="projects-grid">
-    <div className="project-card">
-      <h3>Node.js Application Infrastructure</h3>
+          <div className="projects-grid">
+            <div className="project-card">
+              <h3>Node.js Application Infrastructure</h3>
 
-      <p>
-        Deployment and management of Node.js applications on Linux servers
-        using Nginx, PM2, SSL, Git, and production server configurations.
-      </p>
-    </div>
+              <p>
+                Deployment and management of Node.js applications on Linux
+                servers using Nginx, PM2, SSL, Git, and production server
+                configurations.
+              </p>
+            </div>
 
-    <div className="project-card">
-      <h3>AWS Web Application Environment</h3>
+            <div className="project-card">
+              <h3>AWS Web Application Environment</h3>
 
-      <p>
-        Application infrastructure using AWS EC2, networking components,
-        Linux servers, databases, SSL, and production deployment practices.
-      </p>
-    </div>
+              <p>
+                Application infrastructure using AWS EC2, networking
+                components, Linux servers, databases, SSL, and production
+                deployment practices.
+              </p>
+            </div>
 
-    <div className="project-card">
-      <h3>PHP & CMS Infrastructure</h3>
+            <div className="project-card">
+              <h3>PHP & CMS Infrastructure</h3>
 
-      <p>
-        Deployment and server management for PHP applications and CMS
-        platforms including WordPress, Drupal, and Strapi.
-      </p>
-    </div>
+              <p>
+                Deployment and server management for PHP applications and CMS
+                platforms including WordPress, Drupal, and Strapi.
+              </p>
+            </div>
 
-    <div className="project-card">
-      <h3>Production Server Management</h3>
+            <div className="project-card">
+              <h3>Production Server Management</h3>
 
-      <p>
-        Linux server administration, resource monitoring, troubleshooting,
-        application deployment, storage management, and performance testing.
-      </p>
-    </div>
+              <p>
+                Linux server administration, resource monitoring,
+                troubleshooting, application deployment, storage management,
+                and performance testing.
+              </p>
+            </div>
 
-    <div className="project-card">
-      <h3>Database Infrastructure</h3>
+            <div className="project-card">
+              <h3>Database Infrastructure</h3>
 
-      <p>
-        Managing MySQL, PostgreSQL, and MongoDB databases for web
-        applications and production environments.
-      </p>
-    </div>
+              <p>
+                Managing MySQL, PostgreSQL, and MongoDB databases for web
+                applications and production environments.
+              </p>
+            </div>
 
-    <div className="project-card">
-      <h3>Application Deployment</h3>
+            <div className="project-card">
+              <h3>Application Deployment</h3>
 
-      <p>
-        End-to-end application deployment including server configuration,
-        DNS, SSL, reverse proxy configuration, process management, and
-        production support.
-      </p>
-    </div>
-  </div>
-</section>
+              <p>
+                End-to-end application deployment including server
+                configuration, DNS, SSL, reverse proxy configuration, process
+                management, and production support.
+              </p>
+            </div>
+          </div>
+        </section>
 
+        {/* CONTACT */}
         <section id="contact" className="content-section contact-section">
           <p className="section-label">05 / CONTACT</p>
 
