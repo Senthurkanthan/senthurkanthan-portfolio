@@ -32,7 +32,7 @@ export default function Home() {
             </p>
 
             <h1>
-              Senthurkanthan<span>.</span>
+              Senthurkanthan S S<span>.</span>
             </h1>
 
             <h2>
