@@ -101,26 +101,7 @@ export default function Home() {
   </p>
 </section>
 
-        <section id="skills" className="content-section">
-          <p className="section-label">02 / SKILLS</p>
-
-          <h2>Technical Stack</h2>
-
-          <div className="skills-grid">
-            <div className="skill-card">Linux</div>
-            <div className="skill-card">AWS</div>
-            <div className="skill-card">Node.js</div>
-            <div className="skill-card">PHP</div>
-            <div className="skill-card">MySQL</div>
-            <div className="skill-card">MongoDB</div>
-            <div className="skill-card">PostgreSQL</div>
-            <div className="skill-card">Git & GitHub</div>
-            <div className="skill-card">Nginx</div>
-            <div className="skill-card">PM2</div>
-            <div className="skill-card">SSL / HTTPS</div>
-            <div className="skill-card">WordPress</div>
-          </div>
-        </section>
+       <section id="skills" className="content-section">
 
         <section id="experience" className="content-section">
   <p className="section-label">03 / EXPERIENCE</p>
