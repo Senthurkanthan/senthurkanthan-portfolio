@@ -118,7 +118,7 @@ body::after {
 }
 
 .hero h1 {
-  font-size: clamp(40px, 6vw, 78px);
+  font-size: clamp(35px, 6vw, 78px);
   line-height: 1;
   letter-spacing: -4px;
   margin-bottom: 25px;
