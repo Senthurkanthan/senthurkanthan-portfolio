@@ -374,103 +374,115 @@ export default function Home() {
 
 
           {/* CODERZ */}
-          <div className="experience-card">
+<div className="experience-card">
 
-            <h3>
-              DevOps Engineer
-            </h3>
+  <h3>
+    DevOps Engineer
+  </h3>
 
-            <p>
-              Coderz Vision Technology
-              <br />
-              Oct 2024 – Present · Chennai
-            </p>
+  <p>
+    <a
+      href="https://coderzvisiontech.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="company-link"
+    >
+      Coderz Vision Technology
+    </a>
+    <br />
+    Oct 2024 – Present · Chennai
+  </p>
 
-            <ul>
+  <ul>
 
-              <li>
-                Work with AWS EC2 servers and Linux production
-                environments for application hosting, deployment
-                and maintenance.
-              </li>
+    <li>
+      Work with AWS EC2 servers and Linux production
+      environments for application hosting, deployment
+      and maintenance.
+    </li>
 
-              <li>
-                Deployed and managed 5+ web applications including
-                Node.js, PHP, WordPress, Drupal and Strapi on AWS
-                EC2 and VPS environments.
-              </li>
+    <li>
+      Deployed and managed 5+ web applications including
+      Node.js, PHP, WordPress, Drupal and Strapi on AWS
+      EC2 and VPS environments.
+    </li>
 
-              <li>
-                Configured Nginx reverse proxy to host and route
-                multiple applications and services on a single
-                server.
-              </li>
+    <li>
+      Configured Nginx reverse proxy to host and route
+      multiple applications and services on a single
+      server.
+    </li>
 
-              <li>
-                Used PM2 for Node.js process management and
-                application availability.
-              </li>
+    <li>
+      Used PM2 for Node.js process management and
+      application availability.
+    </li>
 
-              <li>
-                Implemented SSL/HTTPS, domain and DNS configuration
-                for production applications.
-              </li>
+    <li>
+      Implemented SSL/HTTPS, domain and DNS configuration
+      for production applications.
+    </li>
 
-              <li>
-                Installed and configured MySQL, PostgreSQL and
-                MongoDB, including backup and recovery activities.
-              </li>
+    <li>
+      Installed and configured MySQL, PostgreSQL and
+      MongoDB, including backup and recovery activities.
+    </li>
 
-              <li>
-                Executed application and website migrations between
-                AWS and VPS environments with minimal downtime.
-              </li>
+    <li>
+      Executed application and website migrations between
+      AWS and VPS environments with minimal downtime.
+    </li>
 
-              <li>
-                Troubleshot Linux server, application, database,
-                DNS, SSL and deployment issues.
-              </li>
+    <li>
+      Troubleshot Linux server, application, database,
+      DNS, SSL and deployment issues.
+    </li>
 
-            </ul>
+  </ul>
 
-          </div>
+</div>
 
 
-          {/* GLOBALLOGIC */}
-          <div className="experience-card">
+{/* GLOBALLOGIC */}
+<div className="experience-card">
 
-            <h3>
-              Associate Analyst (AI / LLM)
-            </h3>
+  <h3>
+    Associate Analyst (AI / LLM)
+  </h3>
 
-            <p>
-              GlobalLogic
-              <br />
-              Apr 2024 – Sep 2024 · Chennai
-            </p>
+  <p>
+    <a
+      href="https://www.globallogic.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="company-link"
+    >
+      GlobalLogic
+    </a>
+    <br />
+    Apr 2024 – Sep 2024 · Chennai
+  </p>
 
-            <ul>
+  <ul>
 
-              <li>
-                Performed data annotation and labeling for AI/ML
-                projects.
-              </li>
+    <li>
+      Performed data annotation and labeling for AI/ML
+      projects.
+    </li>
 
-              <li>
-                Worked on Amazon Bedrock-based tasks involving
-                AI/LLM output evaluation.
-              </li>
+    <li>
+      Worked on Amazon Bedrock-based tasks involving
+      AI/LLM output evaluation.
+    </li>
 
-              <li>
-                Reviewed and annotated AI-generated content based
-                on task guidelines.
-              </li>
+    <li>
+      Reviewed and annotated AI-generated content based
+      on task guidelines.
+    </li>
 
-            </ul>
+  </ul>
 
-          </div>
-
-        </section>
+</div>
 
 
         {/* =========================
