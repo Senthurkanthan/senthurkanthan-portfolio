@@ -62,71 +62,71 @@ export default function Home() {
 
 
           {/* TERMINAL */}
-          <div className="hero-terminal">
+         <div className="hero-terminal">
+  <div className="terminal-header">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
-            <div className="terminal-header">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+  <div className="terminal-body">
 
-            <div className="terminal-body">
+    <p>
+      <span className="green">senthurkanthan@devops</span>:~$
+      <span className="terminal-command"> whoami</span>
+    </p>
 
-              <p>
-                <span className="green">
-                  senthurkanthan@devops
-                </span>:~$
-              </p>
+    <p className="output">
+      Senthurkanthan S S
+    </p>
 
-              <p className="terminal-command">
-                whoami
-              </p>
+    <p>
+      <span className="green">senthurkanthan@devops</span>:~$
+      <span className="terminal-command"> aws ec2 describe-instances</span>
+    </p>
 
-              <p className="output">
-                DevOps Engineer
-              </p>
+    <p className="success">
+      ✓ EC2 production instances running
+    </p>
 
+    <p>
+      <span className="green">senthurkanthan@devops</span>:~$
+      <span className="terminal-command"> nginx -t</span>
+    </p>
 
-              <p>
-                <span className="green">
-                  senthurkanthan@devops
-                </span>:~$
-              </p>
+    <p className="success">
+      ✓ nginx configuration successful
+    </p>
 
-              <p className="terminal-command">
-                aws ec2 describe-instances
-              </p>
+    <p>
+      <span className="green">senthurkanthan@devops</span>:~$
+      <span className="terminal-command"> pm2 status</span>
+    </p>
 
-              <p className="success">
-                ✓ Production infrastructure available
-              </p>
+    <p className="success">
+      ✓ Node.js applications online
+    </p>
 
+    <p>
+      <span className="green">senthurkanthan@devops</span>:~$
+      <span className="terminal-command"> git status</span>
+    </p>
 
-              <p>
-                <span className="green">
-                  senthurkanthan@devops
-                </span>:~$
-              </p>
+    <p className="output">
+      On branch main
+    </p>
 
-              <p className="terminal-command">
-                systemctl status nginx
-              </p>
+    <p className="success">
+      ✓ Production deployment ready
+    </p>
 
-              <p className="success">
-                ● nginx.service - active (running)
-              </p>
+    <p>
+      <span className="green">senthurkanthan@devops</span>:~$
+      <span className="cursor">_</span>
+    </p>
 
-
-              <p>
-                <span className="green">
-                  senthurkanthan@devops
-                </span>:~$
-                <span className="cursor">_</span>
-              </p>
-
-            </div>
-          </div>
-        </section>
+  </div>
+</div>
 
 
         {/* ABOUT */}
